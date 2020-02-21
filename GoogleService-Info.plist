@@ -1,0 +1,36 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<dict>
+	<key>CLIENT_ID</key>
+	<string>750192727959-49ilo64c4cc9fbigm6em7pe5aa5ghmld.apps.googleusercontent.com</string>
+	<key>REVERSED_CLIENT_ID</key>
+	<string>com.googleusercontent.apps.750192727959-49ilo64c4cc9fbigm6em7pe5aa5ghmld</string>
+	<key>API_KEY</key>
+	<string>AIzaSyBvmg5UI3ExgSc8cmjd2C63TlthoV2IxGU</string>
+	<key>GCM_SENDER_ID</key>
+	<string>750192727959</string>
+	<key>PLIST_VERSION</key>
+	<string>1</string>
+	<key>BUNDLE_ID</key>
+	<string>com.systango.mvvm.boilerplate</string>
+	<key>PROJECT_ID</key>
+	<string>mvvm-boilerplate-42820</string>
+	<key>STORAGE_BUCKET</key>
+	<string>mvvm-boilerplate-42820.appspot.com</string>
+	<key>IS_ADS_ENABLED</key>
+	<false></false>
+	<key>IS_ANALYTICS_ENABLED</key>
+	<false></false>
+	<key>IS_APPINVITE_ENABLED</key>
+	<true></true>
+	<key>IS_GCM_ENABLED</key>
+	<true></true>
+	<key>IS_SIGNIN_ENABLED</key>
+	<true></true>
+	<key>GOOGLE_APP_ID</key>
+	<string>1:750192727959:ios:bbfea7d00c5bba8882d6d2</string>
+	<key>DATABASE_URL</key>
+	<string>https://mvvm-boilerplate-42820.firebaseio.com</string>
+</dict>
+</plist>

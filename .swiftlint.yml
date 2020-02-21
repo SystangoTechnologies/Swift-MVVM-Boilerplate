@@ -1,0 +1,59 @@
+disabled_rules: # rule identifiers to exclude from running
+  - notification_center_detachment
+  - todo
+opt_in_rules: # some rules are only opt-in
+  - empty_count
+  - empty_string
+  # Find all the available rules by running:
+  # swiftlint rules
+excluded: # paths to ignore during linting. Takes precedence over `included`.
+  - Pods
+
+# configurable rules can be customized from this configuration file
+# binary rules can set their severity level
+force_cast: warning # implicitly
+force_try:
+  severity: warning # explicitly
+# rules that have both warning and error levels, can set just the warning level
+# implicitly
+line_length: 220
+# they can set both implicitly with an array
+type_body_length:
+  - 300 # warning
+  - 400 # error
+# or they can set both explicitly
+file_length:
+  warning: 500
+  error: 1200
+cyclomatic_complexity:
+  ignores_case_statements: true
+# naming rules can set warnings/errors for min_length and max_length
+# additionally they can set excluded names
+type_name:
+  min_length: 4 # only warning
+  max_length: # warning and error
+    warning: 50
+    error: 50
+  excluded: # excluded via string array
+    - Row
+    - Key
+identifier_name:
+  min_length: # only min_length
+    error: 2 # only error
+  excluded: # excluded via string array
+    - id
+    - up
+    - ok
+    - vc
+    - to
+    - tv
+    - URL
+    - GlobalAPIKey
+    - CUI
+    - Row
+nesting:
+  type_level: 10
+  statement_level: 10
+large_tuple: 3
+
+reporter: "xcode" # reporter type (xcode, json, csv, checkstyle, junit, html, emoji)
