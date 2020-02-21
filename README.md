@@ -5,7 +5,7 @@
 
 ## Swift-MVVM-Boilerplate
 
-An iOS project can be used as a boilerplate for any new project. This project contains a base architecture using MVVM architecture with all required podfiles and have structured codebase. This will save your valuable time which is needed to structure your code as part of initial setup.
+This project can be used as a boilerplate for any new Swift project. It contains a codebase that uses MVVM architecture with all required podfiles. This will save your valuable time which is needed to structure your code as part of an initial setup.
 
 ## Features
 
